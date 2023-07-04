@@ -1,12 +1,339 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/dist/output.css" rel="stylesheet">
-    <title>Document</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/bbe27ab0c5.js" crossorigin="anonymous"></script>
+
+    <title>Accurate Consult</title>
 </head>
-<body>
-    <h1>Initial commit</h1>
+
+<body class="text-[#303841]">
+    <div class="w-screen h-screen relative bg-[url('/imgs/header.jpg')] bg-center bg-cover bg-opacity-70">
+        <div class="w-screen h-screen flex justify-center items-center flex-col">
+            <div class=""><img src="imgs/accurate-consult-logo.png" class="h-96 w-96"></div>
+            <div role="button" class="absolute bottom-5">
+                <a href="#competences"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor"
+                        class="w-12 h-12 animate-bounce text-white hover:text-[#303841] transition ease-in-out duration-150">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="w-screen px-5 md:px-20 2xl:px-32 py-20 md:py-24 2xl:py-32 bg-gray-100">
+        <div class="flex justify-center">
+            <div class="w-full md:w-2/3 text-center mb-10" id="competences">
+                <h1 class="text-2xl font-semibold mb-2">Competences</h1>
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum tempus dictum. Class
+                    aptent taciti
+                    sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            </div>
+        </div>
+        <div class="hidden sm:flex justify-center">
+            <div class="w-full 2xl:w-5/6">
+                <div class="grid grid-cols-2 lg:grid-cols-3 gap-5">
+                    <div class="bg-white rounded-xl p-5 group drop-shadow-sm">
+                        <div class="w-full h-40 overflow-hidden mb-5 rounded-md relative">
+                            <h2
+                                class="absolute bottom-2 left-2 text-2xl text-white z-10 group-hover:translate-x-4 transition duration-500">
+                                Titel</h2>
+                            <img src="/imgs/image1.jpg"
+                                class="h-full w-full object-cover z-0 group-hover:scale-105 transition duration-500">
+                        </div>
+                        <div class="">
+                            <p class="mb-2 text-sm text-center">Supporting companies in implementing systems to optimize
+                                the finance
+                                function as project lead, track lead or participant with a good understanding of the
+                                communication between finance and IT ensuring the smoothest implementation as possible.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl p-5 group drop-shadow-sm">
+                        <div class="w-full h-40 overflow-hidden mb-5 rounded-md relative">
+                            <h2
+                                class="absolute bottom-2 left-2 text-2xl text-white z-10 group-hover:translate-x-4 transition duration-500">
+                                Titel</h2>
+                            <img src="/imgs/image2.jpg"
+                                class="h-full w-full object-cover z-0 group-hover:scale-105 transition duration-500">
+                        </div>
+                        <div class="">
+                            <p class="mb-2 text-sm text-center">Experience with implementation of especially IFRS 17
+                                related to system
+                                implementation, compliance, accounting impact, actuarial impact etc.</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl p-5 group drop-shadow-sm">
+                        <div
+                            class="w-full h-40 overflow-hidden mb-5 rounded-md relative flex justify-center items-center">
+                            <h2
+                                class="absolute bottom-2 left-2 text-2xl text-white z-10 group-hover:translate-x-4 transition duration-500">
+                                Titel</h2>
+                            <img src="/imgs/image3.jpg"
+                                class="h-full w-full object-cover z-0 group-hover:scale-105 transition duration-500">
+                        </div>
+                        <div class="">
+                            <p class="mb-2 text-sm text-center">Deep knowledge in all aspects of the finance function in
+                                pension funds
+                                and
+                                insurance companies (life and non-life).</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl p-5 group drop-shadow-sm">
+                        <div class="w-full h-40 overflow-hidden mb-5 rounded-md relative">
+                            <h2
+                                class="absolute bottom-2 left-2 text-2xl text-white z-10 group-hover:translate-x-4 transition duration-500">
+                                Titel</h2>
+                            <img src="/imgs/image4.jpg"
+                                class="h-full w-full object-cover z-0 group-hover:scale-105 transition duration-500">
+                        </div>
+                        <div class="">
+                            <p class="mb-2 text-sm text-center">Assisting companies in interim roles within the finance
+                                function as CFO,
+                                Chief Accountant or Controller preparing leadership reports, month-, quarter- or
+                                year-end
+                                close,
+                                preparing audit material, ensuring compliance and other relevant tasks.</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl p-5 group drop-shadow-sm">
+                        <div class="w-full h-40 overflow-hidden mb-5 rounded-md relative">
+                            <h2
+                                class="absolute bottom-2 left-2 text-2xl text-white z-10 group-hover:translate-x-4 transition duration-500">
+                                Titel</h2>
+                            <img src="/imgs/image5.jpg"
+                                class="h-full w-full object-cover z-0 group-hover:scale-105 transition duration-500">
+                        </div>
+                        <div class="">
+                            <p class="mb-2 text-sm text-center">Supporting companies in implementing new accounting
+                                standards within
+                                IFRS,
+                                Lov om Finansiel Virksomhed and Danish Financial Statements Act.</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl p-5 group drop-shadow-sm">
+                        <div class="w-full h-40 overflow-hidden mb-5 rounded-md relative">
+                            <h2
+                                class="absolute bottom-2 left-2 text-2xl text-white z-10 group-hover:translate-x-4 transition duration-500">
+                                Titel</h2>
+                            <img src="/imgs/image6.jpg"
+                                class="h-full w-full object-cover z-0 group-hover:scale-105 transition duration-500">
+                        </div>
+                        <div class="">
+                            <p class="mb-2 text-sm text-center">Leading and participating in agile projects under e.g.
+                                the
+                                SaFe-framework.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sm:hidden">
+            <div class="swiper w-full h-full">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="bg-white rounded-xl p-5 group drop-shadow-sm">
+                            <div class="w-full h-40 overflow-hidden mb-5 rounded-md relative">
+                                <h2
+                                    class="absolute bottom-2 left-2 text-2xl text-white z-10 group-hover:translate-x-4 transition duration-500">
+                                    Titel</h2>
+                                <img src="/imgs/image1.jpg"
+                                    class="h-full w-full object-cover z-0 group-hover:scale-105 transition duration-500">
+                            </div>
+                            <div class="">
+                                <p class="mb-2 text-sm text-center">Supporting companies in implementing systems to
+                                    optimize the finance
+                                    function as project lead, track lead or participant with a good understanding of the
+                                    communication between finance and IT ensuring the smoothest implementation as
+                                    possible.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="bg-white rounded-xl p-5 group drop-shadow-sm">
+                            <div class="w-full h-40 overflow-hidden mb-5 rounded-md relative">
+                                <h2
+                                    class="absolute bottom-2 left-2 text-2xl text-white z-10 group-hover:translate-x-4 transition duration-500">
+                                    Titel</h2>
+                                <img src="/imgs/image2.jpg"
+                                    class="h-full w-full object-cover z-0 group-hover:scale-105 transition duration-500">
+                            </div>
+                            <div class="">
+                                <p class="mb-2 text-sm text-center">Experience with implementation of especially IFRS 17
+                                    related to system
+                                    implementation, compliance, accounting impact, actuarial impact etc.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="bg-white rounded-xl p-5 group drop-shadow-sm">
+                            <div
+                                class="w-full h-40 overflow-hidden mb-5 rounded-md relative flex justify-center items-center">
+                                <h2
+                                    class="absolute bottom-2 left-2 text-2xl text-white z-10 group-hover:translate-x-4 transition duration-500">
+                                    Titel</h2>
+                                <img src="/imgs/image3.jpg"
+                                    class="h-full w-full object-cover z-0 group-hover:scale-105 transition duration-500">
+                            </div>
+                            <div class="">
+                                <p class="mb-2 text-sm text-center">Deep knowledge in all aspects of the finance
+                                    function in pension funds
+                                    and
+                                    insurance companies (life and non-life).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="bg-white rounded-xl p-5 group drop-shadow-sm">
+                            <div class="w-full h-40 overflow-hidden mb-5 rounded-md relative">
+                                <h2
+                                    class="absolute bottom-2 left-2 text-2xl text-white z-10 group-hover:translate-x-4 transition duration-500">
+                                    Titel</h2>
+                                <img src="/imgs/image4.jpg"
+                                    class="h-full w-full object-cover z-0 group-hover:scale-105 transition duration-500">
+                            </div>
+                            <div class="">
+                                <p class="mb-2 text-sm text-center">Assisting companies in interim roles within the
+                                    finance
+                                    function as CFO,
+                                    Chief Accountant or Controller preparing leadership reports, month-, quarter- or
+                                    year-end
+                                    close,
+                                    preparing audit material, ensuring compliance and other relevant tasks.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="bg-white rounded-xl p-5 group drop-shadow-sm">
+                            <div class="w-full h-40 overflow-hidden mb-5 rounded-md relative">
+                                <h2
+                                    class="absolute bottom-2 left-2 text-2xl text-white z-10 group-hover:translate-x-4 transition duration-500">
+                                    Titel</h2>
+                                <img src="/imgs/image5.jpg"
+                                    class="h-full w-full object-cover z-0 group-hover:scale-105 transition duration-500">
+                            </div>
+                            <div class="">
+                                <p class="mb-2 text-sm text-center">Supporting companies in implementing new accounting
+                                    standards within
+                                    IFRS,
+                                    Lov om Finansiel Virksomhed and Danish Financial Statements Act.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="bg-white rounded-xl p-5 group drop-shadow-sm">
+                            <div class="w-full h-40 overflow-hidden mb-5 rounded-md relative">
+                                <h2
+                                    class="absolute bottom-2 left-2 text-2xl text-white z-10 group-hover:translate-x-4 transition duration-500">
+                                    Titel</h2>
+                                <img src="/imgs/image6.jpg"
+                                    class="h-full w-full object-cover z-0 group-hover:scale-105 transition duration-500">
+                            </div>
+                            <div class="">
+                                <p class="mb-2 text-sm text-center">Leading and participating in agile projects under
+                                    e.g.
+                                    the
+                                    SaFe-framework.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-screen px-5 md:px-12 lg:px-44 2xl:px-32 py-20 md:py-24 2xl:py-32">
+        <div class="flex justify-center">
+            <div class="w-full md:w-2/3 text-center mb-10" id="competences">
+                <h1 class="text-2xl font-semibold mb-2">Previous work experience</h1>
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum tempus dictum. Class
+                    aptent taciti
+                    sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            </div>
+        </div>
+        <div class="w-full grid grid-cols-1 gap-10 md:grid-cols-3">
+            <div class="flex flex-col items-center">
+                <div class="h-28 w-28 border rounded-full flex justify-center items-center mb-5">
+                    <i class="fa-solid fa-scale-balanced fa-2xl"></i>
+                </div>
+                <div class="text-center">
+                    <p class="font-semibold">2013 - 2018</p>
+                    <p>Auditor</p>
+                    <p>EY Danmark A/S</p>
+                </div>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="h-28 w-28 border rounded-full flex justify-center items-center mb-5">
+                    <i class="fa-solid fa-scale-balanced fa-2xl"></i>
+                </div>
+                <div class="text-center">
+                    <p class="font-semibold">2018 - 2020</p>
+                    <p>Internal auditor</p>
+                    <p>Sampension Livsforsikring</p>
+                </div>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="h-28 w-28 border rounded-full flex justify-center items-center mb-5">
+                    <i class="fa-solid fa-users-between-lines fa-2xl"></i>
+                </div>
+                <div class="text-center">
+                    <p class="font-semibold">2020 - 2022</p>
+                    <p>Consultant</p>
+                    <p>Deloitte, Assurance Offerings </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-screen px-5 md:px-20 2xl:px-32 py-20 md:py-24 2xl:py-32 bg-gray-100">
+        <div class="w-full h-48 grid lg:grid-cols-3">
+            <div class="flex items-center justify-center">
+                <i class="fa-solid fa-envelope fa-2xl pr-5"></i>
+                <p><a href="mailto:rs@accurateconsult.dk">rs@accurateconsult.dk</a></p>
+            </div>
+            <div class="flex items-center justify-center">
+                <i class="fa-solid fa-phone fa-2xl pr-5"></i>
+                <p><a href="tel:+4551583063">+45 51 58 30 63</a></p>
+            </div>
+            <div class="flex items-center justify-center">
+                <i class="fa-brands fa-linkedin fa-2xl pr-5"></i>
+                <p><a href="https://www.linkedin.com/in/rasmus-haugaard-skov-12b0a394/" target="_blank">Rasmus Haugaard
+                        Skov</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: false,
+
+            // Default parameters
+            slidesPerView: 1,
+            spaceBetween: 10,
+            // Responsive breakpoints
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1.2,
+                    spaceBetween: 10
+                },
+                // when window width is >= 480px
+                480: {
+                    slidesPerView: 2.2,
+                    spaceBetween: 10
+                }
+            }
+        });
+    </script>
 </body>
+
 </html>
