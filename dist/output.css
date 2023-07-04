@@ -707,6 +707,10 @@ video {
   height: calc(100vh - 10vh);
 }
 
+.h-1 {
+  height: 0.25rem;
+}
+
 .w-12 {
   width: 3rem;
 }
